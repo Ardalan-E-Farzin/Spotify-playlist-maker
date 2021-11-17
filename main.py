@@ -20,8 +20,8 @@ song_name = [song.getText() for song in songs]
 # print(artists_list[0])
 
 # ------------------------SPOTIFY----------------------#
-Client_ID = "7bf4d5d77c1443069ecfaccc4449e7f2"
-Client_Secret = "285aa5b8d6504b85947870484809cbb4"
+Client_ID = "###"
+Client_Secret = "###"
 URL = "http://example.com"
 spotify = spotipy.Spotify(auth_manager=SpotifyOAuth(scope="playlist-modify-private",
                                                     redirect_uri=URL,
